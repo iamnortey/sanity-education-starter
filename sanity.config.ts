@@ -6,7 +6,7 @@ export default defineConfig({
   name: "education-starter",
   title: "Education CMS Starter",
 
-  projectId: "clfp8bgi",
+  projectId: "your-project-id",
   dataset: "production",
 
   plugins: [deskTool()],

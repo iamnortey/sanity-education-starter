@@ -29,7 +29,7 @@ Subject
 
 | Document Type | Purpose | Key Fields |
 |--------------|---------|------------|
-| **Subject** | Top-level category (e.g., Mathematics, English) | Title, slug, description, icon |
+| **Subject** | Top-level category (e.g., Mathematics, English) | Name, code, description, order |
 | **Topic** | Unit within a subject (e.g., Algebra, Grammar) | Title, slug, subject reference, order |
 | **Lesson** | Individual lesson within a topic | Title, slug, topic reference, body (rich text), order |
 | **Question** | Assessment item attached to a lesson | Question text, options, correct answer, explanation, lesson reference |
