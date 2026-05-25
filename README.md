@@ -10,7 +10,7 @@
 
 ---
 
-## What It Does
+## What it does
 
 A starter schema for building structured educational content in Sanity CMS. Defines a clean `Subject → Topic → Lesson → Question` hierarchy that maps to how educational content is naturally organized — from broad subjects down to individual assessment items.
 
@@ -18,7 +18,7 @@ Use it as a foundation for exam prep platforms, course builders, learning manage
 
 ---
 
-## Content Model
+## Content model
 
 ```
 Subject
@@ -36,7 +36,7 @@ Subject
 
 ---
 
-## Getting Started
+## Getting started
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ export default defineConfig({
 });
 ```
 
-### Run the Studio
+### Run the studio
 
 ```bash
 npx sanity dev
@@ -76,7 +76,7 @@ Open `http://localhost:3333` to start creating content.
 
 ---
 
-## Schema Files
+## Schema files
 
 ```
 schemas/
@@ -89,12 +89,21 @@ schemas/
 
 ---
 
-## Use Cases
+## Use cases
 
 - **Exam preparation platforms** — organize content by subject, topic, and lesson with built-in question types
 - **Online course builders** — hierarchical content structure ready for curriculum navigation
 - **Learning management systems** — structured schema for educational institutions
 - **Educational content APIs** — query structured content via Sanity's GROQ or GraphQL
+
+---
+
+## What this is not
+
+- **Not a CMS** — it's a schema starter that runs inside Sanity, which provides the CMS
+- **Not a UI library** — the frontend is yours to build
+- **Not a curriculum standard** — the schema is structural; aligning to a specific curriculum (WASSCE, BECE, Common Core, IB, etc.) is left to you
+- **Not opinionated about delivery** — works equally for web, mobile, or pure API delivery
 
 ---
 
