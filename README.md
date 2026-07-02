@@ -2,6 +2,9 @@
 
 > Ready-to-use Sanity CMS schema for educational content platforms — subjects, topics, lessons, and questions.
 
+> **Status: Archived (July 2026).** This starter was extracted from an earlier architecture generation of [Prepnest](https://github.com/iamnortey/prepnest-docs), which has since moved to an offline-first, bundled-SQLite design. The schema remains a usable reference for Sanity-based education projects, but it is no longer maintained.
+
+![Status](https://img.shields.io/badge/status-archived-lightgrey)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)
 ![Sanity](https://img.shields.io/badge/Sanity-v4-red)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -10,7 +13,7 @@
 
 ---
 
-## What It Does
+## What it does
 
 A starter schema for building structured educational content in Sanity CMS. Defines a clean `Subject → Topic → Lesson → Question` hierarchy that maps to how educational content is naturally organized — from broad subjects down to individual assessment items.
 
@@ -18,7 +21,7 @@ Use it as a foundation for exam prep platforms, course builders, learning manage
 
 ---
 
-## Content Model
+## Content model
 
 ```
 Subject
@@ -36,7 +39,7 @@ Subject
 
 ---
 
-## Getting Started
+## Getting started
 
 ### Prerequisites
 
@@ -66,7 +69,7 @@ export default defineConfig({
 });
 ```
 
-### Run the Studio
+### Run the studio
 
 ```bash
 npx sanity dev
@@ -76,7 +79,7 @@ Open `http://localhost:3333` to start creating content.
 
 ---
 
-## Schema Files
+## Schema files
 
 ```
 schemas/
@@ -89,7 +92,7 @@ schemas/
 
 ---
 
-## Use Cases
+## Use cases
 
 - **Exam preparation platforms** — organize content by subject, topic, and lesson with built-in question types
 - **Online course builders** — hierarchical content structure ready for curriculum navigation
@@ -98,9 +101,18 @@ schemas/
 
 ---
 
+## What this is not
+
+- **Not a CMS** — it's a schema starter that runs inside Sanity, which provides the CMS
+- **Not a UI library** — the frontend is yours to build
+- **Not a curriculum standard** — the schema is structural; aligning to a specific curriculum (WASSCE, BECE, Common Core, IB, etc.) is left to you
+- **Not opinionated about delivery** — works equally for web, mobile, or pure API delivery
+
+---
+
 ## Related
 
-- [Prepnest Documentation](https://github.com/iamnortey/prepnest-docs) — the educational platform built on this schema
+- [Prepnest Documentation](https://github.com/iamnortey/prepnest-docs) — Prepnest has since moved to an offline-first architecture; the docs cover the current design
 - [Portfolio](https://github.com/iamnortey/portfolio) — architecture and case studies
 
 ## License
